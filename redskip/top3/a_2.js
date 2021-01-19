@@ -1,7 +1,7 @@
 $(function(){
   if ((location.search.indexOf('') === -1) || (location.search.indexOf('?a=') !== -1)) {
 /* START */
-var l3id = window.location.search.substring(3);history.pushState('', document.title, window.location.pathname);
+var l3id = window.location.search.substring(34);history.pushState('', document.title, window.location.pathname);
 $(".link3_post").hide();
 var l3p = 'https://www.link3.my.id';
 var l3p1 = '/2021/';
