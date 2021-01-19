@@ -5,10 +5,10 @@ $(function(){
 /* START */
 var l3id = window.location.search.substring(34);history.pushState('', document.title, window.location.pathname);
 $(".link3_post").hide();
-var l3p = 'https://www.link3.my.id';
-var l3p1 = '/2021/';
-var l3p2 = '/2022/';
-var l3p3 = '/2023/';
+var l3p = 'https://www.lll.my.id';
+var l3p1 = '/2021/01/how-we-used-to-stephanie-poetri.html';
+var l3p2 = '/2021/01/lirik-lagu-darling-dodit-mulyanto.html';
+var l3p3 = '/2021/01/lirik-lagu-i-love-you-3000-stephanie.html';
 var g = '?alt=';
 var listU = [l3p+l3p1+g+l3id,l3p+l3p2+g+l3id,l3p+l3p3+g+l3id];
 var randomU = listU[Math.floor(Math.random()*listU.length)];
